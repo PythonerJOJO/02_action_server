@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from base_interfaces/action/Angle.action
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module action {
+    struct Angle_Goal {
+      float req_angle1;
+
+      float req_angle2;
+
+      float req_angle3;
+
+      float req_angle4;
+
+      float req_angle5;
+
+      float req_angle6;
+    };
+    struct Angle_Result {
+      float current_angle1;
+
+      float current_angle2;
+
+      float current_angle3;
+
+      float current_angle4;
+
+      float current_angle5;
+
+      float current_angle6;
+    };
+    struct Angle_Feedback {
+      float feedback_angle1;
+
+      float feedback_angle2;
+
+      float feedback_angle3;
+
+      float feedback_angle4;
+
+      float feedback_angle5;
+
+      float feedback_angle6;
+    };
+  };
+};

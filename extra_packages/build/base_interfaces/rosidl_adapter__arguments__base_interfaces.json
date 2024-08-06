@@ -1,0 +1,6 @@
+{
+  "package_name": "base_interfaces",
+  "non_idl_tuples": [
+    "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/base_interfaces:action/Angle.action"
+  ]
+}
