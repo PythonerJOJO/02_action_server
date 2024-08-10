@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces/srv/FirmToRos.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "string data1    # 执行状态")
+    struct FirmToRos_Request {
+      @verbatim (language="comment", text=
+        "请求节点ID")
+      string data2;
+
+      @verbatim (language="comment", text=
+        "请求命令")
+      string data3;
+
+      @verbatim (language="comment", text=
+        "请求参数1")
+      string data4;
+
+      @verbatim (language="comment", text=
+        "请求参数2")
+      string data5;
+    };
+    struct FirmToRos_Response {
+      @verbatim (language="comment", text=
+        "执行节点ID")
+      string node_id;
+
+      @verbatim (language="comment", text=
+        "请求结果信息")
+      string result_msg;
+    };
+  };
+};

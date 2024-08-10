@@ -1,2 +1,6 @@
 action/Angle.action
 action/Angle.idl
+srv/FirmToRos.idl
+srv/FirmToRos.srv
+srv/FirmToRos_Request.msg
+srv/FirmToRos_Response.msg

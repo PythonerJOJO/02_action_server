@@ -66,6 +66,9 @@ include CMakeFiles/base_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/base_interfaces.dir/progress.make
 
+CMakeFiles/base_interfaces: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/base_interfaces/srv/FirmToRos.srv
+CMakeFiles/base_interfaces: rosidl_cmake/srv/FirmToRos_Request.msg
+CMakeFiles/base_interfaces: rosidl_cmake/srv/FirmToRos_Response.msg
 CMakeFiles/base_interfaces: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/base_interfaces/action/Angle.action
 CMakeFiles/base_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/base_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl

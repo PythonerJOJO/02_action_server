@@ -1,6 +1,8 @@
 #ifndef WIFI_DUP_HPP
 #define WIFI_DUP_HPP
-#include <config.hpp> // 包含配置文件
+// #include <config.hpp> // 包含配置文件
+// #include <bsp_config.h>
+#include "../bsp_config.hpp"
 #include <micro_ros_platformio.h>
 
 class WiFiDup

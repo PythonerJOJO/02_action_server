@@ -356,7 +356,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces/srv" TYPE FILE FILES "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces/srv/FirmToRos.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces/action" TYPE FILE FILES "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces/action/Angle.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces/srv" TYPE FILE FILES "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/base_interfaces/srv/FirmToRos.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces/srv" TYPE FILE FILES "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_cmake/srv/FirmToRos_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interfaces/srv" TYPE FILE FILES "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_cmake/srv/FirmToRos_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

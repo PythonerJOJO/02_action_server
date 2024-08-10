@@ -69,8 +69,11 @@ include base_interfaces__py/CMakeFiles/base_interfaces__py.dir/progress.make
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
+base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/srv/_firm_to_ros.py
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/action/_angle.py
+base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/srv/__init__.py
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/action/__init__.py
+base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/srv/_firm_to_ros_s.c
 base_interfaces__py/CMakeFiles/base_interfaces__py: rosidl_generator_py/base_interfaces/action/_angle_s.c
 
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -86,6 +89,7 @@ rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces/srv/FirmToRos.idl
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces/action/Angle.idl
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -103,11 +107,20 @@ rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_int
 rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
 
+rosidl_generator_py/base_interfaces/srv/_firm_to_ros.py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/srv/_firm_to_ros.py
+
 rosidl_generator_py/base_interfaces/action/_angle.py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/action/_angle.py
 
+rosidl_generator_py/base_interfaces/srv/__init__.py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/srv/__init__.py
+
 rosidl_generator_py/base_interfaces/action/__init__.py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/action/__init__.py
+
+rosidl_generator_py/base_interfaces/srv/_firm_to_ros_s.c: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/srv/_firm_to_ros_s.c
 
 rosidl_generator_py/base_interfaces/action/_angle_s.c: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces/action/_angle_s.c
@@ -119,6 +132,9 @@ base_interfaces__py: rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.r
 base_interfaces__py: rosidl_generator_py/base_interfaces/action/__init__.py
 base_interfaces__py: rosidl_generator_py/base_interfaces/action/_angle.py
 base_interfaces__py: rosidl_generator_py/base_interfaces/action/_angle_s.c
+base_interfaces__py: rosidl_generator_py/base_interfaces/srv/__init__.py
+base_interfaces__py: rosidl_generator_py/base_interfaces/srv/_firm_to_ros.py
+base_interfaces__py: rosidl_generator_py/base_interfaces/srv/_firm_to_ros_s.c
 base_interfaces__py: base_interfaces__py/CMakeFiles/base_interfaces__py.dir/build.make
 .PHONY : base_interfaces__py
 

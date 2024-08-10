@@ -3,6 +3,7 @@
   "output_dir": "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_typesupport_introspection_c/base_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
+    "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces:srv/FirmToRos.idl",
     "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces:action/Angle.idl"
   ],
   "ros_interface_dependencies": [
@@ -23,6 +24,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces/srv/FirmToRos.idl",
     "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces/rosidl_adapter/base_interfaces/action/Angle.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",

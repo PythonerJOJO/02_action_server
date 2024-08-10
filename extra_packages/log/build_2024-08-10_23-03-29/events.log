@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (base_interfaces) JobQueued: {'identifier': 'base_interfaces', 'dependencies': OrderedDict()}
+[0.000223] (base_interfaces) JobStarted: {'identifier': 'base_interfaces'}
+[0.009542] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'cmake'}
+[0.009622] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'build'}
+[0.009652] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dai'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dai'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dai/my_project/arm_robot/microros'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2873'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e53a79e414cebcd24af5416466b74696'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dai'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dai/.local/bin:/home/dai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dai/.local/bin:/home/dai/.local/bin'), ('SESSION_MANAGER', 'local/dai:@/tmp/.ICE-unix/2873,unix/dai:/tmp/.ICE-unix/2873'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3f91504_adb0_46c7_afbe_2c9ef18c8e15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5b9c9f2192.sock'), ('GNOME_TERMINAL_SERVICE', ':1.204'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e53a79e414cebcd24af5416466b74696'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.089465] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.089819] (-) TimerEvent: {}
+[0.190074] (-) TimerEvent: {}
+[0.290399] (-) TimerEvent: {}
+[0.390744] (-) TimerEvent: {}
+[0.441025] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.447869] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.458324] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.490864] (-) TimerEvent: {}
+[0.523407] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.590936] (-) TimerEvent: {}
+[0.691313] (-) TimerEvent: {}
+[0.791995] (-) TimerEvent: {}
+[0.892484] (-) TimerEvent: {}
+[0.993100] (-) TimerEvent: {}
+[1.093496] (-) TimerEvent: {}
+[1.200664] (-) TimerEvent: {}
+[1.302091] (-) TimerEvent: {}
+[1.366612] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.402199] (-) TimerEvent: {}
+[1.504304] (-) TimerEvent: {}
+[1.604620] (-) TimerEvent: {}
+[1.704976] (-) TimerEvent: {}
+[1.805340] (-) TimerEvent: {}
+[1.809801] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.905419] (-) TimerEvent: {}
+[2.010661] (-) TimerEvent: {}
+[2.111067] (-) TimerEvent: {}
+[2.211578] (-) TimerEvent: {}
+[2.313167] (-) TimerEvent: {}
+[2.413574] (-) TimerEvent: {}
+[2.470473] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.503400] (base_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.513686] (-) TimerEvent: {}
+[2.540805] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.541069] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.541167] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.569492] (base_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.594604] (base_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.613830] (-) TimerEvent: {}
+[2.679428] (base_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.687573] (base_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces\n'}
+[2.713919] (-) TimerEvent: {}
+[2.814365] (-) TimerEvent: {}
+[2.853826] (base_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.914477] (-) TimerEvent: {}
+[2.943742] (base_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.961460] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_base_interfaces\n'}
+[3.014601] (-) TimerEvent: {}
+[3.114913] (-) TimerEvent: {}
+[3.215214] (-) TimerEvent: {}
+[3.315594] (-) TimerEvent: {}
+[3.419018] (-) TimerEvent: {}
+[3.519369] (-) TimerEvent: {}
+[3.619852] (-) TimerEvent: {}
+[3.720159] (-) TimerEvent: {}
+[3.820460] (-) TimerEvent: {}
+[3.921467] (-) TimerEvent: {}
+[3.975414] (base_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.976588] (base_interfaces) StdoutLine: {'line': b'writing base_interfaces.egg-info/PKG-INFO\n'}
+[3.977234] (base_interfaces) StdoutLine: {'line': b'writing dependency_links to base_interfaces.egg-info/dependency_links.txt\n'}
+[3.978827] (base_interfaces) StdoutLine: {'line': b'writing top-level names to base_interfaces.egg-info/top_level.txt\n'}
+[3.983059] (base_interfaces) StdoutLine: {'line': b"reading manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[3.984483] (base_interfaces) StdoutLine: {'line': b"writing manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[4.021903] (-) TimerEvent: {}
+[4.078159] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_base_interfaces_egg\n'}
+[4.122008] (-) TimerEvent: {}
+[4.222314] (-) TimerEvent: {}
+[4.322668] (-) TimerEvent: {}
+[4.422969] (-) TimerEvent: {}
+[4.523279] (-) TimerEvent: {}
+[4.623611] (-) TimerEvent: {}
+[4.709822] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.723732] (-) TimerEvent: {}
+[4.745260] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target base_interfaces__cpp\n'}
+[4.768846] (base_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/action/detail/angle__functions.c.o\x1b[0m\n'}
+[4.788791] (base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.791471] (base_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/firm_to_ros__functions.c.o\x1b[0m\n'}
+[4.823840] (-) TimerEvent: {}
+[4.839755] (base_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.925231] (-) TimerEvent: {}
+[5.026259] (-) TimerEvent: {}
+[5.126626] (-) TimerEvent: {}
+[5.226931] (-) TimerEvent: {}
+[5.327261] (-) TimerEvent: {}
+[5.427566] (-) TimerEvent: {}
+[5.459030] (base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.463083] (base_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.527686] (-) TimerEvent: {}
+[5.628047] (-) TimerEvent: {}
+[5.701094] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.728158] (-) TimerEvent: {}
+[5.745774] (base_interfaces) StdoutLine: {'line': b'[ 20%] Built target base_interfaces__rosidl_generator_c\n'}
+[5.766426] (base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/srv/firm_to_ros__type_support.cpp.o\x1b[0m\n'}
+[5.801575] (base_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/action/angle__type_support.cpp.o\x1b[0m\n'}
+[5.828276] (-) TimerEvent: {}
+[5.928594] (-) TimerEvent: {}
+[6.014166] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.028745] (-) TimerEvent: {}
+[6.113559] (base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/srv/detail/dds_fastrtps/firm_to_ros__type_support.cpp.o\x1b[0m\n'}
+[6.128855] (-) TimerEvent: {}
+[6.229186] (-) TimerEvent: {}
+[6.329548] (-) TimerEvent: {}
+[6.429902] (-) TimerEvent: {}
+[6.493160] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.530014] (-) TimerEvent: {}
+[6.537613] (base_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/srv/detail/firm_to_ros__type_support.cpp.o\x1b[0m\n'}
+[6.630132] (-) TimerEvent: {}
+[6.730507] (-) TimerEvent: {}
+[6.830869] (-) TimerEvent: {}
+[6.931672] (-) TimerEvent: {}
+[7.032011] (-) TimerEvent: {}
+[7.113918] (base_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.132172] (-) TimerEvent: {}
+[7.232545] (-) TimerEvent: {}
+[7.332879] (-) TimerEvent: {}
+[7.433240] (-) TimerEvent: {}
+[7.533634] (-) TimerEvent: {}
+[7.633979] (-) TimerEvent: {}
+[7.741473] (-) TimerEvent: {}
+[7.771661] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.772625] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/action/detail/angle__type_support.cpp.o\x1b[0m\n'}
+[7.803873] (base_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/action/detail/dds_fastrtps/angle__type_support.cpp.o\x1b[0m\n'}
+[7.841581] (-) TimerEvent: {}
+[7.941917] (-) TimerEvent: {}
+[7.982981] (base_interfaces) StdoutLine: {'line': b'[ 41%] Built target base_interfaces__rosidl_typesupport_cpp\n'}
+[8.042026] (-) TimerEvent: {}
+[8.075265] (base_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.142142] (-) TimerEvent: {}
+[8.242505] (-) TimerEvent: {}
+[8.342966] (-) TimerEvent: {}
+[8.443287] (-) TimerEvent: {}
+[8.543604] (-) TimerEvent: {}
+[8.644028] (-) TimerEvent: {}
+[8.744800] (-) TimerEvent: {}
+[8.805009] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.845037] (-) TimerEvent: {}
+[8.875480] (base_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/srv/detail/firm_to_ros__type_support_c.cpp.o\x1b[0m\n'}
+[8.945270] (-) TimerEvent: {}
+[9.045822] (-) TimerEvent: {}
+[9.146340] (-) TimerEvent: {}
+[9.246853] (-) TimerEvent: {}
+[9.347363] (-) TimerEvent: {}
+[9.380990] (base_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.386875] (base_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.447510] (-) TimerEvent: {}
+[9.450378] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.494891] (base_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/srv/detail/firm_to_ros__type_support.c.o\x1b[0m\n'}
+[9.547627] (-) TimerEvent: {}
+[9.638786] (base_interfaces) StdoutLine: {'line': b'[ 53%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.647739] (-) TimerEvent: {}
+[9.673001] (base_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.679898] (base_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/action/detail/angle__type_support.c.o\x1b[0m\n'}
+[9.699403] (base_interfaces) StdoutLine: {'line': b'[ 58%] Built target base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.747885] (-) TimerEvent: {}
+[9.755905] (base_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/action/detail/angle__type_support_c.cpp.o\x1b[0m\n'}
+[9.841851] (base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.848001] (-) TimerEvent: {}
+[9.918201] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.948112] (-) TimerEvent: {}
+[10.048846] (-) TimerEvent: {}
+[10.149677] (-) TimerEvent: {}
+[10.250432] (-) TimerEvent: {}
+[10.344683] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[10.350558] (-) TimerEvent: {}
+[10.376270] (base_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/action/angle__type_support.cpp.o\x1b[0m\n'}
+[10.399336] (base_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/srv/firm_to_ros__type_support.cpp.o\x1b[0m\n'}
+[10.450670] (-) TimerEvent: {}
+[10.474126] (base_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.514938] (base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.550821] (-) TimerEvent: {}
+[10.633949] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_c\n'}
+[10.650969] (-) TimerEvent: {}
+[10.671956] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.723238] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces\n'}
+[10.751128] (-) TimerEvent: {}
+[10.775354] (base_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.851322] (-) TimerEvent: {}
+[10.952102] (-) TimerEvent: {}
+[11.052545] (-) TimerEvent: {}
+[11.153252] (-) TimerEvent: {}
+[11.253722] (-) TimerEvent: {}
+[11.354168] (-) TimerEvent: {}
+[11.455022] (-) TimerEvent: {}
+[11.556028] (-) TimerEvent: {}
+[11.656752] (-) TimerEvent: {}
+[11.757975] (-) TimerEvent: {}
+[11.859729] (-) TimerEvent: {}
+[11.960878] (-) TimerEvent: {}
+[12.061626] (-) TimerEvent: {}
+[12.162332] (-) TimerEvent: {}
+[12.263022] (-) TimerEvent: {}
+[12.363749] (-) TimerEvent: {}
+[12.464417] (-) TimerEvent: {}
+[12.536456] (base_interfaces) StdoutLine: {'line': b'[ 76%] Built target base_interfaces__py\n'}
+[12.561960] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_py\x1b[0m\n'}
+[12.564712] (-) TimerEvent: {}
+[12.605462] (base_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/srv/_firm_to_ros_s.c.o\x1b[0m\n'}
+[12.612240] (base_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/action/_angle_s.c.o\x1b[0m\n'}
+[12.664886] (-) TimerEvent: {}
+[12.767301] (-) TimerEvent: {}
+[12.868265] (-) TimerEvent: {}
+[12.969169] (-) TimerEvent: {}
+[13.070477] (-) TimerEvent: {}
+[13.117607] (base_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/libbase_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.170623] (-) TimerEvent: {}
+[13.247136] (base_interfaces) StdoutLine: {'line': b'[ 84%] Built target base_interfaces__rosidl_generator_py\n'}
+[13.270763] (-) TimerEvent: {}
+[13.272743] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.279212] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.316349] (base_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.330649] (base_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.370879] (-) TimerEvent: {}
+[13.471731] (-) TimerEvent: {}
+[13.572324] (base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.572549] (-) TimerEvent: {}
+[13.651939] (base_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.664729] (base_interfaces) StdoutLine: {'line': b'[ 94%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.672678] (-) TimerEvent: {}
+[13.696632] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.722531] (base_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.763336] (base_interfaces) StdoutLine: {'line': b'[ 97%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.772817] (-) TimerEvent: {}
+[13.874171] (-) TimerEvent: {}
+[13.975187] (-) TimerEvent: {}
+[13.984763] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.076362] (-) TimerEvent: {}
+[14.149942] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.185264] (-) TimerEvent: {}
+[14.201188] (base_interfaces) CommandEnded: {'returncode': 0}
+[14.285388] (-) TimerEvent: {}
+[14.386864] (-) TimerEvent: {}
+[14.487629] (-) TimerEvent: {}
+[14.588589] (-) TimerEvent: {}
+[14.650653] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'install'}
+[14.668989] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces'], 'cwd': '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'dai'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dai'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/dai/my_project/arm_robot/microros'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2873'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e53a79e414cebcd24af5416466b74696'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dai'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/dai/.local/bin:/home/dai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dai/.local/bin:/home/dai/.local/bin'), ('SESSION_MANAGER', 'local/dai:@/tmp/.ICE-unix/2873,unix/dai:/tmp/.ICE-unix/2873'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a3f91504_adb0_46c7_afbe_2c9ef18c8e15'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5b9c9f2192.sock'), ('GNOME_TERMINAL_SERVICE', ':1.204'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/build/base_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e53a79e414cebcd24af5416466b74696'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.687759] (base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.688656] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces\n'}
+[14.688844] (-) TimerEvent: {}
+[14.689009] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.689303] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.693796] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.694008] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.694116] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.694268] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__functions.c\n'}
+[14.694375] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__type_support.h\n'}
+[14.694467] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__functions.h\n'}
+[14.694583] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__struct.h\n'}
+[14.694673] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/firm_to_ros.h\n'}
+[14.694760] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.694847] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/angle.h\n'}
+[14.694933] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.695019] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__type_support.h\n'}
+[14.695106] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__functions.c\n'}
+[14.695248] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__functions.h\n'}
+[14.695350] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__struct.h\n'}
+[14.695441] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/library_path.sh\n'}
+[14.695643] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/library_path.dsv\n'}
+[14.695756] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so\n'}
+[14.695844] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.695930] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.696015] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.696099] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.696251] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.696486] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.696587] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__rosidl_typesupport_fastrtps_c.h\n'}
+[14.696715] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.696803] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.697269] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.700114] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.700332] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.700443] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.700535] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.700624] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.700713] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.700798] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.700883] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__type_support.c\n'}
+[14.700969] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__rosidl_typesupport_introspection_c.h\n'}
+[14.712679] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.712945] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.713098] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__rosidl_typesupport_introspection_c.h\n'}
+[14.713286] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__type_support.c\n'}
+[14.714141] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.714898] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.715219] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so\n'}
+[14.716507] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.716707] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.716822] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.717062] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/firm_to_ros.hpp\n'}
+[14.718064] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.718282] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__traits.hpp\n'}
+[14.718409] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__builder.hpp\n'}
+[14.718501] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__struct.hpp\n'}
+[14.718652] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.718759] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/angle.hpp\n'}
+[14.718844] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.718961] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__traits.hpp\n'}
+[14.719091] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__struct.hpp\n'}
+[14.719466] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__builder.hpp\n'}
+[14.719832] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.720016] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.720123] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.720258] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.720405] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.720540] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.721046] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps\n'}
+[14.721200] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.721311] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.721444] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.721529] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/dds_fastrtps\n'}
+[14.721654] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.722319] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.722504] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.722657] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[14.722749] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[14.722864] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.722963] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/firm_to_ros__type_support.cpp\n'}
+[14.723152] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action\n'}
+[14.723306] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail\n'}
+[14.723392] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__type_support.cpp\n'}
+[14.726836] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/include/base_interfaces/base_interfaces/action/detail/angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.727504] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.729916] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.730922] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.731213] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.731399] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh\n'}
+[14.731500] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv\n'}
+[14.731698] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info\n'}
+[14.731844] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.731975] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.732207] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.732415] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.732662] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces\n'}
+[14.732802] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.733282] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.733648] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py\n'}
+[14.733820] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.734518] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.734842] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.735132] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.735576] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so\n'}
+[14.735874] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv\n'}
+[14.736035] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py\n'}
+[14.736250] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_firm_to_ros_s.c\n'}
+[14.736449] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_firm_to_ros.py\n'}
+[14.736684] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action\n'}
+[14.736994] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action/_angle_s.c\n'}
+[14.737085] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action/__init__.py\n'}
+[14.737291] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action/_angle.py\n'}
+[14.788959] (-) TimerEvent: {}
+[14.816556] (base_interfaces) StdoutLine: {'line': b"Listing '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...\n"}
+[14.816755] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py'...\n"}
+[14.816868] (base_interfaces) StdoutLine: {'line': b"Listing '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action'...\n"}
+[14.816951] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action/__init__.py'...\n"}
+[14.817029] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/action/_angle.py'...\n"}
+[14.817105] (base_interfaces) StdoutLine: {'line': b"Listing '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv'...\n"}
+[14.817188] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py'...\n"}
+[14.817293] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_firm_to_ros.py'...\n"}
+[14.825597] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.826194] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.826565] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.827185] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.827605] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.828153] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.828508] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so\n'}
+[14.829170] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.829426] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/srv/FirmToRos.idl\n'}
+[14.829622] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/action/Angle.idl\n'}
+[14.829769] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/srv/FirmToRos.srv\n'}
+[14.829891] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/srv/FirmToRos_Request.msg\n'}
+[14.830089] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/srv/FirmToRos_Response.msg\n'}
+[14.830682] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/action/Angle.action\n'}
+[14.830875] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces\n'}
+[14.830978] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces\n'}
+[14.831057] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh\n'}
+[14.831164] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.831322] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/path.sh\n'}
+[14.831431] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/environment/path.dsv\n'}
+[14.831574] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/local_setup.bash\n'}
+[14.831707] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/local_setup.sh\n'}
+[14.831798] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/local_setup.zsh\n'}
+[14.831910] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/local_setup.dsv\n'}
+[14.832026] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/package.dsv\n'}
+[14.832238] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces\n'}
+[14.832603] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.832749] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.832884] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.833034] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.833232] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.833538] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.834190] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.834588] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.834757] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.834918] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.835036] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.835228] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.835427] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.835554] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.835685] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.835808] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.835928] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.836008] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.836221] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.836458] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.836626] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.836777] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.836881] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.836958] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.837031] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake\n'}
+[14.837104] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake\n'}
+[14.837176] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/dai/my_project/arm_robot/microros/02_action_server/extra_packages/install/base_interfaces/share/base_interfaces/package.xml\n'}
+[14.846111] (base_interfaces) CommandEnded: {'returncode': 0}
+[14.889115] (-) TimerEvent: {}
+[14.991149] (-) TimerEvent: {}
+[15.091587] (-) TimerEvent: {}
+[15.192275] (-) TimerEvent: {}
+[15.231478] (base_interfaces) JobEnded: {'identifier': 'base_interfaces', 'rc': 0}
+[15.233870] (-) EventReactorShutdown: {}
